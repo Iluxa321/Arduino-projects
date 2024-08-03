@@ -1,0 +1,361 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 df:/Program/PlatformIO/Projects/ESP32_WebSocket
+valu
+!s110 1682861868
+!i10b 1
+!s100 b4Oja=E74`US@QgNffQM91
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IE_@I31:D3G?ZS:XQH`>_A3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1682789502
+8f:\Program\Quartus\RISC_Single\Verilog\ALU.v
+Ff:\Program\Quartus\RISC_Single\Verilog\ALU.v
+!i122 1053
+L0 1 43
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1682861868.000000
+!s107 f:\Program\Quartus\RISC_Single\Verilog\ALU.v|
+!s90 -modelsimini|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\modelsim.ini|-quiet|-work|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|f:\Program\Quartus\RISC_Single\Verilog\ALU.v|
+!i113 1
+Z4 o-quiet -work {f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L not_in_project
+Z5 tCvgOpt 0
+valu_test
+!s110 1682870492
+!i10b 1
+!s100 ;9QG=T:7Kmz1HY;ZY^lfg3
+R1
+IOFlG=4b91Q7L9^kKkETJ62
+R2
+R0
+w1682361210
+8f:\Program\Quartus\RISC_Single\Testbench\alu_test.v
+Ff:\Program\Quartus\RISC_Single\Testbench\alu_test.v
+!i122 1267
+L0 3 150
+R3
+r1
+!s85 0
+31
+!s108 1682870492.000000
+!s107 f:\Program\Quartus\RISC_Single\Testbench\alu_test.v|
+!s90 -modelsimini|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\modelsim.ini|-quiet|-work|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|f:\Program\Quartus\RISC_Single\Testbench\alu_test.v|
+!i113 1
+R4
+R5
+valuDecoder
+Z6 !s110 1682872402
+!i10b 1
+!s100 g6STKh:dOKJmPY1n@7KJa3
+R1
+I<RG2bj:Tz`AgQP6:LcTTg2
+R2
+R0
+Z7 w1682872401
+Z8 8f:\Program\Quartus\RISC_Single\Verilog\controller.v
+Z9 Ff:\Program\Quartus\RISC_Single\Verilog\controller.v
+!i122 1313
+L0 90 43
+R3
+r1
+!s85 0
+31
+Z10 !s108 1682872402.000000
+Z11 !s107 f:\Program\Quartus\RISC_Single\Verilog\controller.v|
+Z12 !s90 -modelsimini|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\modelsim.ini|-quiet|-work|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|f:\Program\Quartus\RISC_Single\Verilog\controller.v|
+!i113 1
+R4
+R5
+nalu@decoder
+vcontroller
+R6
+!i10b 1
+!s100 ZOJ:>_L?H9D5^[kU2EjBD1
+R1
+I73E@J3O@zjNZCD<<cT3K?3
+R2
+R0
+R7
+R8
+R9
+!i122 1313
+L0 1 29
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+vcore_test
+Z13 !s110 1682888186
+!i10b 1
+!s100 K<CLe`BSAHz;=CW?^[z5o2
+R1
+IeZkQAhCLXjYbfdLZ>24H82
+R2
+R0
+Z14 w1682888183
+Z15 8f:\Program\Quartus\RISC_Single\Testbench\core_test.v
+Z16 Ff:\Program\Quartus\RISC_Single\Testbench\core_test.v
+!i122 1332
+L0 3 40
+R3
+r1
+!s85 0
+31
+Z17 !s108 1682888186.000000
+Z18 !s107 f:\Program\Quartus\RISC_Single\Testbench\core_test.v|
+Z19 !s90 -modelsimini|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\modelsim.ini|-quiet|-work|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|f:\Program\Quartus\RISC_Single\Testbench\core_test.v|
+!i113 1
+R4
+R5
+vdatepath
+Z20 !s110 1682871962
+!i10b 1
+!s100 `_X8YcZ?hhbhTzEzeQANd3
+R1
+IW4E<Wd9^>jDgonCjUkmZ21
+R2
+R0
+Z21 w1682871960
+Z22 8f:\Program\Quartus\RISC_Single\Verilog\datepath.v
+Z23 Ff:\Program\Quartus\RISC_Single\Verilog\datepath.v
+!i122 1298
+L0 1 50
+R3
+r1
+!s85 0
+31
+Z24 !s108 1682871962.000000
+Z25 !s107 f:\Program\Quartus\RISC_Single\Verilog\datepath.v|
+Z26 !s90 -modelsimini|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\modelsim.ini|-quiet|-work|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|f:\Program\Quartus\RISC_Single\Verilog\datepath.v|
+!i113 1
+R4
+R5
+vflopr
+R20
+!i10b 1
+!s100 T2mIUCkKSS0g31lF7GcSB3
+R1
+IgA=Ac`OP8aCW4gTQeXBdb0
+R2
+R0
+R21
+R22
+R23
+!i122 1298
+L0 144 10
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R4
+R5
+vimmExt
+R20
+!i10b 1
+!s100 Kz<MZWn=dO<@6[SRk@f<T3
+R1
+Ibz<F1]4X[YDnio5RTEkUd2
+R2
+R0
+R21
+R22
+R23
+!i122 1298
+L0 122 21
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R4
+R5
+nimm@ext
+vmainDecoder
+R6
+!i10b 1
+!s100 fWefi;d?DGMg^2M8V2S1W2
+R1
+IoaE55K:Z9:JO>A4]ZnD>83
+R2
+R0
+R7
+R8
+R9
+!i122 1313
+L0 32 56
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+nmain@decoder
+vmem
+R13
+!i10b 1
+!s100 U6I@KOjb;Q[TFeYHF=`H]3
+R1
+I7;`feTXUH?_emzDT@[73W2
+R2
+R0
+R14
+R15
+R16
+!i122 1332
+L0 44 19
+R3
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R4
+R5
+vreadMemData
+R20
+!i10b 1
+!s100 IAR0<Xd_T0W9GO:^HAjgl2
+R1
+I4RnlIOG7gjiiHE@Uz2m3F2
+R2
+R0
+R21
+R22
+R23
+!i122 1298
+L0 71 27
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R4
+R5
+nread@mem@data
+vregfile
+R20
+!i10b 1
+!s100 7`15V569`b?gnX2H::N4A2
+R1
+I;SHj=k[XW>GCe7IHgQJ8U0
+R2
+R0
+R21
+R22
+R23
+!i122 1298
+L0 53 17
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R4
+R5
+vtest_core
+!s110 1682866903
+!i10b 1
+!s100 fUT4HY<bUIj661fAzZ`0J0
+R1
+Ig5_HOQCocTmP35JL>668P0
+R2
+R0
+w1682866900
+R15
+R16
+!i122 1218
+L0 3 13
+R3
+r1
+!s85 0
+31
+!s108 1682866903.000000
+R18
+R19
+!i113 1
+R4
+R5
+vtop
+!s110 1682863788
+!i10b 1
+!s100 GgePTWneSVOm7Wc5zhj;h3
+R1
+Ia9mzo`0Wed4Xc5lc4X]Cf2
+R2
+R0
+w1682863786
+8C:\Users\Ilya\AppData\Local\Temp\tmpsbv72qor.v
+FC:\Users\Ilya\AppData\Local\Temp\tmpsbv72qor.v
+!i122 1084
+L0 1 28
+R3
+r1
+!s85 0
+31
+!s108 1682863787.000000
+!s107 C:\Users\Ilya\AppData\Local\Temp\tmpsbv72qor.v|
+!s90 -modelsimini|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\modelsim.ini|-quiet|-work|f:\Program\PlatformIO\Projects\ESP32_WebSocket\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\Ilya\AppData\Local\Temp\tmpsbv72qor.v|
+!i113 1
+R4
+R5
+vwriteMemData
+R20
+!i10b 1
+!s100 1dYge_di?7zYHnJCA2=<i2
+R1
+IHR1bR;5kcBT6UFQl_nOH[3
+R2
+R0
+R21
+R22
+R23
+!i122 1298
+L0 99 22
+R3
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+R4
+R5
+nwrite@mem@data

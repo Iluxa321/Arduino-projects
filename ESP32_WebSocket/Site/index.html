@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Test</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="content-wrapper">
+			<div class="content">
+				<h2>Управление ESP32</h2>
+				<div class="info">
+					<p>Состояние соединения: </p>
+					<p>Идет подключение к серверу</p>
+				</div>
+				<div class="board no-active">
+					<div class="menu">
+						<div class="menu-slider">
+							<div class="visiable-field">
+								<p value="0" disable>Выберете плату</p>
+								<p>&#9660;</p>
+								
+							</div>
+							<div class="menu-slider-wraper">
+								<div class="menu-slider-item">
+								<p value="1">Плата 1</p>
+								<p value="2">Плата 2</p>
+							</div>
+							</div>		
+						</div>
+						<div class="connected-board" value="0">
+							<p>
+								Подключится
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="info no-active">
+					<p id="board-status" ></p>
+				</div>
+				
+	
+				<div class="mode-menu no-active">
+					<div class="menu">
+						<div class="menu-slider">
+							<div class="visiable-field">
+								<p value="0">Выберете режим работы</p>
+								<p>&#9660;</p>
+							</div>
+							<div class="menu-slider-wraper">
+								<div class="menu-slider-item">
+								<p value="1">PWM</p>
+								<p value="2">Blink</p>
+							</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+	
+	
+	
+				<div class="modes">
+					
+					<div class="mode1">
+						<div class="setting">
+							<!-- Регулируем ШИМ -->
+							<h2>Настройки</h2>
+							
+							<div class="silder_flexbox">
+								<div class="slider_wraper">
+									<input type="range" min="0" max="255" step="1" name="" class="slider">
+								</div>
+								<div class="pwm_val">
+									<p >128</p>
+								</div>
+							</div>
+							<div class="time">
+								<label for="">Частота обновления (мс.)</label>
+								<input type="number" min="100" max="3000" step="5" value="100">
+							</div>
+						</div>
+						<div class="display">
+								<h2>Измеряемые значения</h2>
+							<div class="current-value">
+								<label for="">Напряжение (В)</label>
+								<input type="text" value="0" readonly>
+							</div>
+							<div class="current-value">
+								<label for="">Ток (А)</label>
+								<input type="text" value="0" readonly>
+							</div>	
+						</div>
+						<button class="save-button">Сохранить настройки</button>
+					</div>
+					<div class="mode2">
+						<!-- Регулируем частоту мигания свето диода -->
+						<div class="silder_flexbox">
+							<div class="slider_wraper">
+								<input type="range" min="0" max="255" step="1" name="" class="slider blocked">
+							</div>
+						</div>
+						<div class="pwm_val">
+							<p >128</p>
+						</div>
+						<div class="display">
+							<div class="current-value">
+								<label for="">Напряжение (В)</label>
+								<input type="text" value="0" readonly>
+							</div>
+							<div class="current-value">
+								<label for="">Ток (А)</label>
+								<input type="text" value="0" readonly>
+							</div>
+						</div>
+						<button class="save-button">Сохранить настройки</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="graphic-box">
+				<div id="Graphic"> </div>
+			</div>
+		</div>
+		
+		
+	</div>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+.container{
+
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.content-wrapper {
+	margin-top: 100px;
+	display: flex;
+}
+
+.graphic-box {
+	background: #eee;
+	border: rgb(105, 121, 112) solid 10px;
+	border-radius: 10px;
+
+}
+
+.content{
+	width: 600px;
+	margin: 0 auto;
+	
+	/*height: 300px;*/
+	background: #BEBAF5;
+	padding: 30px;
+	border: solid 5px;
+	border-radius: 20px;
+}
+
+
+h2{
+	width: 210px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+
+.pwm_control{
+	padding-bottom: 20px;
+}
+
+.silder_flexbox{
+	display: inline-flex;
+	align-items: center;
+	padding-top: 10px;
+
+}
+/* 
+.checkbox_wraper{
+	background: white;
+	padding: 10px;
+	margin: 0px;
+	border: solid 2px;
+	border-radius: 5px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.checkbox_wraper > input[type=checkbox]{
+	-webkit-appearance: none;
+	margin: 0;
+	margin-right: 5px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #adb5bd;
+	background: white;
+  	border-radius: 0.25em;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: 50% 50%;
+}
+
+
+.checkbox_wraper > input[type=checkbox]:checked {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.checkbox_wraper > input[type=checkbox]:active {
+ 	background-color: #b3d7ff;
+  	border-color: #b3d7ff;
+ }
+
+ .checkbox_wraper > input[type=checkbox]:focus{
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);	
+} */
+
+/*
+.checkbox_wraper > input[type=checkbox]{
+	position: absolute;
+  	z-index: -1;
+  	visibility: hidden;
+  	margin: 0px;
+  	width: 15px;
+  	height: 15px;
+  	margin-right: 5px;
+}
+
+.checkbox_wraper > input[type=checkbox]+label{
+	display: flex;
+  	align-items: center;
+  	user-select: none;
+}
+
+.checkbox_wraper > input[type=checkbox] +label::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+
+.checkbox_wraper > input[type=checkbox]:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+
+.checkbox_wraper > input[type=checkbox]:active +label::before {
+ 	background-color: #b3d7ff;
+  	border-color: #b3d7ff;
+ }
+
+.checkbox_wraper > input[type=checkbox]:focus +label::before {
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);	
+}
+
+.checkbox_wraper > input[type=checkbox]:focus:not(:checked) +label::before {
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);	
+}
+
+.checkbox_wraper > input[type=checkbox]:disabled+label::before {
+	background-color: #e9ecef;
+}
+*/
+.slider_wraper{
+	background: white;
+	padding: 10px;
+	margin: 0;
+	margin-right: 15px;
+	border: solid 2px;
+	border-radius: 5px;
+}
+
+
+
+.slider{
+	-webkit-appearance: none;
+	width: 200px;
+	height: 10px;
+	background: #596E7D;
+	opacity: 0.8;
+	transition: 0.5s;
+	
+}
+
+
+.slider.blocked{
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.slider::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	appearance: none;
+	background: orange;
+	width: 15px;
+	height: 30px;
+	border: solid 10px;
+	border-radius: 8px;
+	border-color: orange;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.pwm_val{	
+	width: 228px;
+	margin: 0;
+}
+
+.pwm_val p{
+	/* margin: 0 auto;
+	margin-top: 20px; */
+	padding: 10px;
+	width: 50px;
+	background: #D4D6DD;
+	border-radius: 10px;
+	border: solid 2px;
+	text-align: center;
+}
+
+
+
+
+.info{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid 2px;
+	border-radius: 10px;
+
+}
+.info > p{
+	display: inline-block;
+	margin: 0;
+	margin-right: 10px;
+	font-size: 18px;
+}
+.connected{
+	border-color: green;
+}
+
+.disconnected{
+	border-color: red;
+}
+
+
+.menu{
+	display: inline-flex;
+	margin-bottom: 10px;
+
+	/*align-items: center;*/
+}
+
+.menu  p{
+	margin: 0px;
+	padding: 10px;
+	background: #F1F1F1;
+	text-align: left;
+	cursor: pointer;
+	user-select: none;
+}
+
+.transparent-no-active {
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+
+
+.connected-board{
+	margin-left: 10px;
+}
+
+.menu-slider{
+	display: flex;
+	width: 250px;
+	flex-direction: column;
+
+}
+
+.visiable-field{
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.visiable-field p:first-child{
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+
+.menu-slider-wraper{
+	position: relative;
+
+}
+
+.menu-slider-item{
+	position: fixed;
+	z-index: 1;
+	width: 250px;
+	
+	overflow: hidden;
+	max-height: 0.1px;
+	transition: 0.3s;
+	
+}
+
+.item-show{
+	transition: 0.3s;
+	max-height: 120px;
+	box-shadow: 7px 7px 13px #DDDDDD;
+}
+
+.menu-slider-item p:hover{
+	background: #DDDDDD;
+}
+
+
+.menu {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.mode-menu {
+	max-height: 50px;
+}
+
+.no-active{
+	max-height: 0px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.display {
+	margin-top: 10px;
+	padding: 15px;
+	border: solid 2px;
+	border-radius: 5px;
+}
+
+.current-value {
+	margin-top: 15px;
+}
+
+.current-value label{
+	padding: 7px;
+	border: solid 2px;
+	border-radius: 5px;
+	background: #adb5bd;
+}
+
+.current-value input{
+	width: 50px;
+	height: auto;
+	padding: 7px;
+	border: solid 2px;
+	border-radius: 5px;
+}
+
+.modes h2 {
+	width: auto;
+	margin-bottom: 5px;
+}
+
+.mode1 {
+	max-height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.mode2 {
+	max-height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.setting {
+	border: solid 2px;
+	padding: 10px;
+}
+
+.setting-show{
+	transition: 1s;
+	max-height: 400px;
+	visibility: visible;
+}
+
+
+.time label{
+	padding: 7px;
+	border: solid 2px;
+	border-radius: 5px;
+	background: #adb5bd;
+}
+
+.time input {
+	width: 50px;
+	height: auto;
+	padding: 7px;
+	border: solid 2px;
+	border-radius: 5px;
+}
+
+.save-button {
+	background: #adb5bd;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+	display: block;
+}
+
+.save-button:hover {
+	cursor: pointer;
+}
+
+.save-button:active {
+	transform: scale(0.95);
+}
